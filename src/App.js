@@ -10,12 +10,12 @@ import Useeffect from "./components/Useeffect/Useeffect"
 import Useref from "./components/Useref/Useref"
 import Usecallback from "./components/Usecallback/Usecallback"
 import Usememo from "./components/Usememo/Usememo"
-
+import Usecontext from "./components/Usecontext/Usecontext"
+import Usereducer from "./components/Usereducer/Usereducer"
 
 const App = ()=>{
     return (
         <div className="App">
-            <h1>All React Hooks</h1>
             <Router>
                 <Switch>
                     <Route path="/" exact={true}>
@@ -35,6 +35,12 @@ const App = ()=>{
                     </Route>
                     <Route path="/usememo">
                         <Usememo />
+                    </Route>
+                    <Route path="/usecontext">
+                        <Usecontext />
+                    </Route>
+                    <Route path="/usereducer">
+                        <Usereducer />
                     </Route>
                 </Switch>
         </Router>
