@@ -18,6 +18,8 @@ const Home = ()=>{
             <Link to="/usecontext">useContext</Link>
             <br/>
             <Link to="/usereducer">useReducer</Link>
+            <br/>
+            <h4><Link to="/customhooks">Custom Hooks</Link></h4>
         </div>
     )
 }

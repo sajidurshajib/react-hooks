@@ -12,6 +12,7 @@ import Usecallback from "./components/Usecallback/Usecallback"
 import Usememo from "./components/Usememo/Usememo"
 import Usecontext from "./components/Usecontext/Usecontext"
 import Usereducer from "./components/Usereducer/Usereducer"
+import Customhooks from "./components/Customhooks/Customhooks"
 
 const App = ()=>{
     return (
@@ -41,6 +42,9 @@ const App = ()=>{
                     </Route>
                     <Route path="/usereducer">
                         <Usereducer />
+                    </Route>
+                    <Route path="/customhooks">
+                        <Customhooks />
                     </Route>
                 </Switch>
         </Router>
